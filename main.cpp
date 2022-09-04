@@ -37,7 +37,7 @@ main (){
     cout << "int min size " << INT_MIN << " Bytes \n";
     cout << "int max size " << INT_MAX << " Bytes \n";
 
-    //size of Data types 
+    //size of Data types
         cout << "size of float  " << sizeof(float) << " Bytes \n";
         cout << "size of string " << sizeof(string) << " Bytes \n";
         cout << "size of duble " << sizeof(double) << " Bytes \n";
