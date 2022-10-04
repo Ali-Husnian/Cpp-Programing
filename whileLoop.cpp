@@ -19,7 +19,7 @@ int main() {
 		number++;
 	}
 	*/
-cout << "*****************************************";
+cout << "***************************************** \n";
 
 // count digits of a numbers.
 
@@ -33,7 +33,10 @@ if (number == 0)
 }
 else
 {
-	int counter ;
+	if(number < 0){
+		number = -1 * number ;
+	}
+	int counter = 0;
 	while (number > 0)
 	{
 		number/=10; //number = number/10;
