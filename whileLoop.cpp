@@ -22,7 +22,7 @@ int main() {
 cout << "***************************************** \n";
 
 // count digits of a numbers.
-
+/*
 int number ;
 cout << "Enter a number \n";
 cin >> number; 
@@ -45,8 +45,21 @@ else
 	cout << "Count the number lenght is " << counter ;
 	
 }
+*/
+
+// Reversing number with while loop.
+int number ,reversNumber = 0,result;
+cout << "Enter the a number";
+cin >> number;
+
+while (number != 0 )
+{
+	result = number % 10;
+	reversNumber = (reversNumber*10)+result;
+	number = number/10; 
+}
+cout << "Reverse " << reversNumber;
 
 
-	
 	system("pause>0");
 }
