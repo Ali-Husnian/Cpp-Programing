@@ -2,6 +2,7 @@
 using namespace std ;
 main(){
     int userPin = 1234 , pin , errorCount = 0;
+
     do{
         cout << "Enter PIN: " ;
         cin>> pin ;
@@ -16,10 +17,6 @@ main(){
      }else{
         cout << "Bloacked...";
      }
-     
-
-
-
 
     system("pause>0");
 }
