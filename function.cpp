@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-/**/
+/*
 void myfunction(){   //creat a function
     cout << "This is a myFunction" << endl;
 }
@@ -11,9 +11,9 @@ int main(){
     system("pause>0");
 }
 
+*/
 
-
-/**/
+/*
 void newFunction();  // function declaration
 int main(){
 
@@ -26,8 +26,7 @@ void newFunction(){
     cout << "I got just run it" << endl;   // the body of function is called definition.
 }
 
-
-
+*/
 
 /*
 
@@ -51,3 +50,31 @@ newFunction(); // defult set values
 } 
 
 */
+
+/*
+*/
+int sum(int a , int b);
+
+double sum(double a , double b);
+
+float sum(float a , float b , float c);
+
+int main()
+{
+   cout<< "The result of intiger :" << sum(3,4) << endl;
+   cout<< "The result of double :" << sum(3.3,4.4) << endl;
+   cout<< "The result of float :" << sum(3.3,4.4,2.2) << endl;
+
+
+    return 0;
+}
+
+int sum(int a , int b){
+    return a+b;
+}
+double sum(double a , double b){
+    return a+b;
+}
+float sum(float a , float b , float c){
+    return c+a+b;
+}
