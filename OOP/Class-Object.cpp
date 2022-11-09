@@ -23,10 +23,11 @@ int main(){
     cout << "Youtube Channal Name: " << YTchannal.Name << endl;
     cout << "Youtube Ownre Name: " << YTchannal.OwnerName << endl;
     cout << "Youtube ViewsCount: " << YTchannal.ViewsCount << endl;
+    /*cout << "Youtube Videos: " << YTchannal.VideosCourseTitle << endl;*/
+// forEach Loop print list 
     cout << "Youtube Videos:" << endl;
     for(string Title:YTchannal.VideosCourseTitle){
         cout << Title << endl;
     }
-
     system("pause>0");
 }
