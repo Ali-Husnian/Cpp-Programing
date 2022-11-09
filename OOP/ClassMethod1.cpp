@@ -1,19 +1,20 @@
 #include<iostream>
 using namespace std;
-class Students
+class Students //class
 {
-private:
+private: //access specifier
+    // class data member
     string Name ;
     int RollNo;
     string Class;
     string Subject;
     string Programe;
 
-public:
-   void StudentsMethod();
+public: // access specifier
+   void StudentsMethod(); // calss member function declaration
 };
 
-void Students::StudentsMethod(){
+void Students::StudentsMethod(){ //  member function deffination
     Name = "Ali";
     RollNo = 33;
     Class = "A";
@@ -29,7 +30,8 @@ void Students::StudentsMethod(){
 
 int main(){
 
-Students s;
-s.StudentsMethod();
+    Students s; //class objcet
+    s.StudentsMethod(); // call function
+
     system("pause>0");
 }
